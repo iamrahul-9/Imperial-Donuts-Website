@@ -1,0 +1,258 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Vesper Libre', serif;
+    color: rgb(255, 0, 119);
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: rgb(255, 0, 119);
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.head-container {
+    width: 90%;
+    height: 85%;
+    margin: auto auto;
+    border: 2px solid rgb(255, 0, 119);
+    text-align: center;
+}
+
+#background-image {
+    background-image: url(https://1.bp.blogspot.com/-SWZyi11ijFY/YIWLemVAmrI/AAAAAAAAEBE/07dPAPJnLII-lQZQ6ACWigS_GdKCDCY7ACLcBGAsYHQ/s720/donut1-min.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-head {
+    color: rgb(255, 0, 119);
+    text-transform: uppercase;
+    font-size: 120px;
+    margin: 50px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.second-head {
+    color: #ffffdd;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 240%;
+    color: rgb(255, 0, 119);
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.about-section {
+    width: 100vw;
+    height: 90vh;
+}
+
+.about-container {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    width: 45%;
+    text-align: justify;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    line-height: 220%;
+}
+
+.right-box {
+    width: 40%;
+    margin-left: 6%;
+}
+
+.top-row,
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-image-one {
+    width: 50%;
+    height: 230px;
+    background-image: url(https://1.bp.blogspot.com/-K1XdCdv22x4/YIV-IOS9RrI/AAAAAAAAEAk/YPEXMJ_xdxgYZlG_yAXMyZmOpO5s2vVpwCLcBGAsYHQ/s2048/toronto-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-two {
+    width: 50%;
+    height: 230px;
+    background-image: url(https://1.bp.blogspot.com/-bxXI8QwXXIA/YIV-Es4IyOI/AAAAAAAAD_w/34kQtcLF2nQpZPyzQqDcVCHn_AUiFGT_wCLcBGAsYHQ/s2048/coffee1-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-three {
+    width: 50%;
+    height: 230px;
+    background-image: url(https://1.bp.blogspot.com/-AiG6Fcy6PZQ/YIV-FIHLpNI/AAAAAAAAD_4/0NeTh0j0GlUGHQrh9Xb9D_zZbC-zez_NgCLcBGAsYHQ/s2048/coffee2-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-four {
+    width: 50%;
+    height: 230px;
+    background-image: url(https://1.bp.blogspot.com/-mI_Ofzm0sJU/YIV-FeqsBWI/AAAAAAAAD_8/UVuPkKF-XawouicblMz9nja93JJNK406ACLcBGAsYHQ/s750/donuts1-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.donuts-section {
+    width: 100vw;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.grid-item:hover {
+    opacity: 0.80;
+}
+
+.row-one,
+.row-two,
+.row-three {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-item {
+    width: 30%;
+    height: 310px;
+    margin: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+#image-one {
+    background-image: url(https://1.bp.blogspot.com/-TCyVG-8250E/YIV-F8lQeoI/AAAAAAAAEAE/FCsElA8N55cfE5rPsLof8J2buZfPTsE3QCLcBGAsYHQ/s625/donuts2-min.jpg);
+}
+
+#image-two {
+    background-image: url(https://1.bp.blogspot.com/-mNRDF3FZz8k/YIV-GPLW6II/AAAAAAAAEAI/6JAujJD5HEUEUaLbxnZ8DLJnrtlXSguuwCLcBGAsYHQ/s500/donuts3-min.jpg);
+}
+
+#image-three {
+    background-image: url(https://1.bp.blogspot.com/-g_78kn0u4RM/YIV-Go6y3NI/AAAAAAAAEAM/wnrBlPvJ14c-X0fFeoQ61vu1Oy4SvfqNgCLcBGAsYHQ/s500/donuts4-min.jpg);
+}
+
+#image-four {
+    background-image: url(https://1.bp.blogspot.com/-dwUiD8QTFUM/YIV-GjaDW3I/AAAAAAAAEAQ/vIAvhFz_d1IvBqNVvQt7hHylgEPxLZJKQCLcBGAsYHQ/s500/donuts5-min.jpg);
+}
+
+#image-five {
+    background-image: url(https://1.bp.blogspot.com/-NDjQBDclmOM/YIV-GgsDCnI/AAAAAAAAEAU/XqTnMKO6SEMRdTx03NcRcrBsHKlK1iq1QCLcBGAsYHQ/s500/donuts6-min.jpg);
+}
+
+#image-six {
+    background-image: url(https://1.bp.blogspot.com/-gR8ysncNuJQ/YIV-HZVFUgI/AAAAAAAAEAY/3FtVV-tAkgEKUs2Ms9aOIDopq1r3kUVoACLcBGAsYHQ/s500/donuts7-min.jpg);
+}
+
+#image-seven {
+    background-image: url(https://1.bp.blogspot.com/-GTYb3mLg-_Y/YIV-HQ-lSGI/AAAAAAAAEAc/pdu5Kg_oKl0RmgfdmusC6kl-ggz9DP3XgCLcBGAsYHQ/s500/donuts8-min.jpg);
+}
+
+#image-eight {
+    background-image: url(https://1.bp.blogspot.com/-Hjjogdu1P-0/YIWLeiHTRJI/AAAAAAAAEBA/-1tYCLtvD7k5U2SK2DSKC9qrh_Hb4wXtgCLcBGAsYHQ/s720/donuts9-min.jpg);
+}
+
+#image-nine {
+    background-image: url(https://1.bp.blogspot.com/-oa65UaqH2o4/YIV-F4xT-UI/AAAAAAAAEAA/do91lV0cn50U9wbQ-nZ9TpItC_mZwjNPQCLcBGAsYHQ/s500/donuts10-min.jpg);
+}
+
+.stores-section {
+    width: 100vw;
+}
+
+.stores-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.store-div {
+    width: 30%;
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+.contact-section {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(255, 0, 119);
+    text-align: center;
+    color: ffffdd;
+}
+
+.contact-title {
+    margin: 25px 0;
+    font-size: 250%;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.email {
+    font-size: 130%;
+}
+
+.social-media-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 0px auto;
+}
+
+.social-media-icon {
+    margin: 0px 7.5px;
+}
